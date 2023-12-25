@@ -7,9 +7,9 @@
 
 void BuildObject::DrawHologram()
 {
-    Rectangle objectRectangle = {0,0,sprite.width,sprite.height};
+    Rectangle objectRectangle = {0,0,(float)sprite.width,(float)sprite.height};
     Rectangle spriteRec = {x,y, objectRectangle.width, objectRectangle.height};
-    Vector2 objectCenter = {sprite.width/2, sprite.height/2};
+    Vector2 objectCenter = {(float)sprite.width/2, (float)sprite.height/2};
     DrawTexturePro(sprite, objectRectangle, spriteRec, objectCenter,rotation, GREEN);
 }
 

@@ -1,5 +1,6 @@
 #pragma once
-#include <raygui.h>
+
+#include <raylib.h>
 
 class objectUI
 {

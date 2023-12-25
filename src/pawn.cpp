@@ -1,15 +1,15 @@
 #include <raylib.h>
 #include <raymath.h>
-#include <stdlib.h>
-#include <time.h>
+#include <cstdlib>
+#include <ctime>
 #include <iostream>
 #include "pawn.h"
 
 void Pawn::draw()
 {
-    Rectangle pawnRect = {0,0,placeholder.width,placeholder.height};
-    Rectangle destRect = {x,y,pawnRect.width*0.3, pawnRect.height*0.3};
-    Vector2 pawnOrigin = {placeholder.width/2 * 0.3, placeholder.height/2 * 0.3};
+    Rectangle pawnRect = {0,0,(float)placeholder.width,(float)placeholder.height};
+    Rectangle destRect = {x,y,static_cast<float>(pawnRect.width*0.3), static_cast<float>(pawnRect.height*0.3)};
+    Vector2 pawnOrigin = {static_cast<float>(placeholder.width/2 * 0.3), static_cast<float>(placeholder.height/2 * 0.3)};
     DrawTexturePro(placeholder, pawnRect,destRect, pawnOrigin, 0, WHITE);
 }
 

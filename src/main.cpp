@@ -1,7 +1,7 @@
 #include <raylib.h>
 #include "buildObject.h"
 #include "pawn.h"
-#include <iostream>
+
 
 int main()
 {

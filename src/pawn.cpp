@@ -2,7 +2,7 @@
 #include <raymath.h>
 #include <cstdlib>
 #include <ctime>
-#include <iostream>
+#include <cmath>
 #include "pawn.h"
 
 void Pawn::draw()
@@ -46,5 +46,13 @@ void Pawn::wonder(int screenWidth, int screenHeight)
 
         moveToX = numberX;
         moveToY = numberY;
+
+        isWondering = true;
+    }else
+    {
+        if (trunc(x) == moveToX || trunc(y) == moveToY)
+        {
+            isWondering = false;
+        }
     }
 }

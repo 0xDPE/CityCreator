@@ -1,0 +1,21 @@
+# ninja log v5
+1	125	7252537517725710	raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-mkdir	a96f78e3c74c6bc
+1	125	7252537517725710	C:/Users/msd/Documents/CityCreator/cmake-build-debug/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-mkdir	a96f78e3c74c6bc
+126	25908	7252537775584880	raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-download	5abe3109a7911818
+126	25908	7252537775584880	C:/Users/msd/Documents/CityCreator/cmake-build-debug/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-download	5abe3109a7911818
+25908	27076	0	raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-update	fda2977387b85d11
+25908	27076	0	C:/Users/msd/Documents/CityCreator/cmake-build-debug/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-update	fda2977387b85d11
+27076	27111	7252537787608719	raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-patch	3c78f785087fa7f1
+27076	27111	7252537787608719	C:/Users/msd/Documents/CityCreator/cmake-build-debug/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-patch	3c78f785087fa7f1
+27111	27145	7252537787958720	raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-configure	788547f9332e62d4
+27111	27145	7252537787958720	C:/Users/msd/Documents/CityCreator/cmake-build-debug/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-configure	788547f9332e62d4
+27145	27180	7252537788298745	raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-build	21cf7057ce18685f
+27145	27180	7252537788298745	C:/Users/msd/Documents/CityCreator/cmake-build-debug/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-build	21cf7057ce18685f
+27180	27214	7252537788638758	raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-install	f16cc399e2b5c537
+27180	27214	7252537788638758	C:/Users/msd/Documents/CityCreator/cmake-build-debug/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-install	f16cc399e2b5c537
+27214	27248	7252537788978746	raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-test	19d4a0cd01605341
+27214	27248	7252537788978746	C:/Users/msd/Documents/CityCreator/cmake-build-debug/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-test	19d4a0cd01605341
+27248	27295	7252537789448745	CMakeFiles/raylib-populate-complete	c7dc1d5ddc2782a3
+27248	27295	7252537789448745	raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-done	c7dc1d5ddc2782a3
+27248	27295	7252537789448745	C:/Users/msd/Documents/CityCreator/cmake-build-debug/_deps/raylib-subbuild/CMakeFiles/raylib-populate-complete	c7dc1d5ddc2782a3
+27248	27295	7252537789448745	C:/Users/msd/Documents/CityCreator/cmake-build-debug/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-done	c7dc1d5ddc2782a3

@@ -2,7 +2,8 @@
 #include <raymath.h>
 #include <cstdlib>
 #include <ctime>
-#include <cmath>
+#include <iostream>
+#include <random>
 #include "pawn.h"
 
 void Pawn::draw()
@@ -39,10 +40,22 @@ void Pawn::wonder(int screenWidth, int screenHeight)
 {
     if(!isWondering)
     {
-        srand(time(NULL));
+        std::random_device rd;
+        std::uniform_int_distribution<int> distX (1,screenWidth - 1);
+        int numberX = distX(rd);
+        std::uniform_int_distribution<int> distY (1,screenHeight - 1);
+        int numberY = distY(rd);
 
-        int numberX = rand() % screenWidth;
-        int numberY = rand() % screenHeight;
+        if (numberX <= 0)
+        {
+            numberX = 1;
+        }else if (numberY <= 0 )
+        {
+            numberY = 1;
+        }
+
+        std::cout << numberX << "\n";
+        std::cout << numberY << "\n";
 
         moveToX = numberX;
         moveToY = numberY;

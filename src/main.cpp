@@ -58,10 +58,10 @@ int main()
         pawnTest.draw();
 
         pawnTest.speed = 1;
-        pawnTest.moveToX = test.x;
-        pawnTest.moveToY = test.y;
-        pawnTest.move();
+        //pawnTest.moveToX = test.x;
+        //pawnTest.moveToY = test.y;
         pawnTest.wonder(GetMonitorWidth(display), GetMonitorHeight(display));
+        pawnTest.move();
 
         test.Update();
         //bool hasArrivedAtDest =  test.inRadiusDetection(pawnTest.x, pawnTest.y);

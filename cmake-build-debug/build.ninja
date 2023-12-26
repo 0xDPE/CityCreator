@@ -93,7 +93,7 @@ build CityCreator.exe: CXX_EXECUTABLE_LINKER__CityCreator_Debug CMakeFiles/CityC
   FLAGS = -g
   LINK_LIBRARIES = _deps/raylib-build/raylib/libraylib.a  -lopengl32  -lglu32  -lwinmm  -lpthread  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\CityCreator.dir
-  POST_BUILD = cd .
+  POST_BUILD = cmd.exe /C "cd /D C:\Users\msd\Documents\CityCreator\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2023.3.2\bin\cmake\win\x64\bin\cmake.exe" -E create_symlink C:/Users/msd/Documents/CityCreator/Asset C:/Users/msd/Documents/CityCreator/cmake-build-debug/Asset"
   PRE_LINK = cd .
   TARGET_FILE = CityCreator.exe
   TARGET_IMPLIB = libCityCreator.dll.a

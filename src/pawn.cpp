@@ -13,16 +13,6 @@ void Pawn::draw()
     DrawTexturePro(placeholder, pawnRect,destRect, pawnOrigin, 0, WHITE);
 }
 
-void Pawn::wonder(int screenWidth, int screenHeight) 
-{
-    if(!isWondering)
-    {
-        srand(time(NULL));
-
-        int numberX = rand() % screenWidth;
-    }
-}
-
 void Pawn::move()
 {
     Vector2 startVec;
@@ -43,4 +33,18 @@ void Pawn::move()
     x += direction.x * speed;
     y += direction.y * speed;
 
+}
+
+void Pawn::wonder(int screenWidth, int screenHeight)
+{
+    if(!isWondering)
+    {
+        srand(time(NULL));
+
+        int numberX = rand() % screenWidth;
+        int numberY = rand() % screenHeight;
+
+        moveToX = numberX;
+        moveToY = numberY;
+    }
 }
